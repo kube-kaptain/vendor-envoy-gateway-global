@@ -1,4 +1,4 @@
-apiVersion: kaptain.org/1.16
+apiVersion: kaptain.org/1.18
 kind: kubernetes-bundle-vendor-helm-rendered
 metadata:
   description: "Vendored Envoy Gateway CRDs for cluster-wide installation"
