@@ -8,8 +8,8 @@ metadata:
     kaptain.org/source-repository: kube-kaptain/vendor-envoy-gateway-global
   name: backendtrafficpolicies.gateway.envoyproxy.io
   labels:
-    app: backendtrafficpolicies.gateway.envoyproxy.io
-    app.kubernetes.io/name: backendtrafficpolicies.gateway.envoyproxy.io
+    app: ${ProjectName}
+    app.kubernetes.io/name: ${ProjectName}
     app.kubernetes.io/version: "${Version}"
     app.kubernetes.io/managed-by: Kaptain
     app.kubernetes.io/part-of: ${ProductName}

@@ -1,11 +1,11 @@
-apiVersion: kaptain.org/1.18
+apiVersion: kaptain.org/1.23
 kind: kubernetes-bundle-vendor-helm-rendered
 metadata:
   description: "Vendored Envoy Gateway CRDs for cluster-wide installation"
 
 spec:
   layers:
-    - layer-github-flow-strict:[1.3,2.0)
+    - layer-github-flow-strict:[1.3]
   main:
     vendorHelmRendered:
       ociChart: 'oci://docker.io/envoyproxy/gateway-helm'

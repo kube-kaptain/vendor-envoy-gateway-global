@@ -8,8 +8,8 @@ metadata:
     kaptain.org/source-repository: kube-kaptain/vendor-envoy-gateway-global
   name: httproutefilters.gateway.envoyproxy.io
   labels:
-    app: httproutefilters.gateway.envoyproxy.io
-    app.kubernetes.io/name: httproutefilters.gateway.envoyproxy.io
+    app: ${ProjectName}
+    app.kubernetes.io/name: ${ProjectName}
     app.kubernetes.io/version: "${Version}"
     app.kubernetes.io/managed-by: Kaptain
     app.kubernetes.io/part-of: ${ProductName}
